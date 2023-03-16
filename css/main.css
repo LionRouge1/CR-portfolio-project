@@ -325,3 +325,79 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact-form {
+  padding: 78px 24px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-head {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  margin: 10px 0;
+  padding: 24px;
+  flex: 100%;
+  width: 100%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  height: 48px;
+  border-bottom: 1px solid #DFE1E6;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.contact-form input[type="submit"] {
+  width: 131px;
+  height: 48px;
+  background-color: #FF6B00;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 24px auto;
+}
+
+.contact-form textarea {
+  background-color: #FBF8F7;
+  font-style: italic;
+}
+
+footer {
+  border-top: 1px solid #DFE1E6;
+}
+
+footer > ul {
+  display: flex;
+  gap: 21px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+footer > hr {
+  width: 130px;
+  background-color: black;
+  height: 8px;
+  border-radius: 10px;
+  margin: 10px auto;
+}
