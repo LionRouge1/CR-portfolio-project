@@ -338,8 +338,7 @@ li {
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
-  text-align: center;
+  letter-spacing: 0;
   text-align: center;
 }
 
@@ -355,7 +354,7 @@ li {
 .contact-form input[type="text"],
 .contact-form input[type="email"] {
   height: 48px;
-  border-bottom: 1px solid #DFE1E6;
+  border-bottom: 1px solid #dfe1e6;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -364,7 +363,7 @@ li {
 .contact-form input[type="submit"] {
   width: 131px;
   height: 48px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   color: white;
   display: flex;
   align-items: center;
@@ -378,12 +377,12 @@ li {
 }
 
 .contact-form textarea {
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   font-style: italic;
 }
 
 footer {
-  border-top: 1px solid #DFE1E6;
+  border-top: 1px solid #dfe1e6;
 }
 
 footer > ul {
@@ -394,7 +393,7 @@ footer > ul {
   margin: 20px 0;
 }
 
-footer > hr {
+.bar {
   width: 130px;
   background-color: black;
   height: 8px;
