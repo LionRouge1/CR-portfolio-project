@@ -30,9 +30,8 @@
 
 # 📖 [CR Portfolio Project] <a name="about-project"></a>
 
-Code review portfolio project. Build bor the code review code training.
+Code review portfolio project. Build for the code review code training.
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
